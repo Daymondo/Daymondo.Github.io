@@ -20,9 +20,18 @@ This code turns z w d d g into h e l l o. D5 is where the output code goes. $A$2
 
 Then we created a table type thing to decode full messages the table isn't fully completed just to let you know. 	
 
-            coded message	zwddg																							program:												left		z	zw	zwd	zwdd	zwddg	zwddg	zwddg	zwddg	zwddg		factor		1	2	3	4	5	6	7	8	9		switch I/0	1	1	1	1	1	1	0	0	0	0														encryption 		z	w	d	d	g						decryption 
+            coded message	zwddg										
+												
+	program:											
+	left		z	zw	zwd	zwdd	zwddg	zwddg	zwddg	zwddg	zwddg	
+	factor		1	2	3	4	5	6	7	8	9	
+	switch I/0	1	1	1	1	1	1	0	0	0	0	
+												
+	encryption 		z	w	d	d	g					
+	decryption 
 
-											Because we didn't get to the decryption part we couldn't complete the the thing fully but in the first part we looked at separate letters this bit of code decrypts whole words so you don't have to split them up completely. The switch stops the code from running when it doesn't need to so rather than z w d d g it would be z w d d g g g g g g...ect the factor has to be the same as the amount of letters for it to be 1 if it isnt then its 0.
+											
+Because we didn't get to the decryption part we couldn't complete the the thing fully but in the first part we looked at separate letters this bit of code decrypts whole words so you don't have to split them up completely. The switch stops the code from running when it doesn't need to so rather than z w d d g it would be z w d d g g g g g g...ect the factor has to be the same as the amount of letters for it to be 1 if it isnt then its 0.
 
 That all we got to in the first 4 weeks of year 9. 												
-
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSY-U18x2e5F_RafKGEect9PAvsavZJ6YnpQNSsR5tgZiWeL8VN5lRfGaBMMaTlO83IRtpkK6EuDlaM/pubhtml?widget=true&amp;headers=false"></iframe>
